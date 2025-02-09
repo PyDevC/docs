@@ -1,0 +1,1 @@
+<C-g>  - shows the line you are currently at.

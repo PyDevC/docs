@@ -1,0 +1,8 @@
+To read something from the output or file.
+use :r or :read
+
+to retrieve the contents of the file
+use :r filname
+
+to retrieve the output of a command 
+use :r !command

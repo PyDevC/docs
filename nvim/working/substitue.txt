@@ -1,0 +1,5 @@
+To change occurance of a word.
+use :s/old/new to change old to new in a line.
+use :s/old/new/g to change globally in line
+use :#,#s/old/new to change in a range replace # by line number.
+use :%s/old/new to change in whole file.

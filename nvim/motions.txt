@@ -1,0 +1,30 @@
+hjkl - movement
+i - insert inside
+x - remove infront
+f - find forward
+F - find backward
+o - insert in a new blank line below
+O - insert in a new blank line above
+a - insert after the cursor
+A - insert at end of line
+y - yank the highlighted text 
+Y - yank the whole line
+d<suffix> - delete
+dd - delete line
+dw - delete word
+db - delete word backward
+~ - swapcase
+0 - front of the line
+$ - end of the line
+<C-r> - redo
+p - paste the yanked text below line
+P - paste the yanket text above line
+c - change the characters ( requires the use of a motion )
+r - to replace the character
+R - to replace the character comming in front of the cursor ( similar to insert in old softwares )
+gg - to goto top of the file
+G - to goto bottom of the file
+g[number] - to goto the line in the number
+n - to search next element of same word
+N - to search previous element of same word
+% - to match parenthesis or braces or subscripts.

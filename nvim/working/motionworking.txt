@@ -1,0 +1,5 @@
+motions works on a simple principle
+
+type an operator to execute the command
+type some [number]s with it to  add repetition to it.
+type some useful motions to add custom behaviors to operation

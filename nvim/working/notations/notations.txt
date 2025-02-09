@@ -1,0 +1,37 @@
+<Nul> zero
+<BS> backspace
+<Tab> tab
+<CR> carriage return
+<Esc> escape
+<Space> space
+<lt> less than <
+<Bslash> backslash \
+<Bar> vertical bar |
+<Del> delete
+<EOL> end of line
+<NOP> do nothing
+<Up> cursor-up
+<Down> cursor-down
+<Left> cursor-left
+<Right> cursor-right
+<S-Up> shift-cursor-up
+<S-Down> shift-cursor-down
+<S-Left> shift-cursor-left
+<S-Right> shift-cursor-right
+<C-Left> control-cursor-left
+<C-Right> shift-cursor-right
+<F1> - <F12> function keys
+<S-F1> - <S-F12> shift function keys
+<Help> help key
+<Undo> undo key
+<Insert> insert key
+<Home> home
+<End> end
+<PageUp> page-up
+<PageDown> page-down
+<S-…>		shift-key	
+<C-…>		control-key
+<M-…>		alt-key or meta-key
+<A-…>		same as <M-…>
+<T-…>		meta-key when it's not alt
+<D-…>		command-key or "super" key

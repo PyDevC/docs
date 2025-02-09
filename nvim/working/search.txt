@@ -1,0 +1,7 @@
+The forward search is initialized by '/' and the cursor goes to command line.
+when pressing `n` the highlight cycles through each search word in forward manner.
+The opposite direction is with `N`.
+
+The backward search is initialized by '?' and the follows same manner.
+
+if warpscan is reset then the search won't cycle.

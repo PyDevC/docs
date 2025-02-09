@@ -1,0 +1,2 @@
+command mode is activated by :
+it is used to run builtin commands of neovim

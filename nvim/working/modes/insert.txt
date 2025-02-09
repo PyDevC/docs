@@ -1,0 +1,1 @@
+insert mode is just to insert the text

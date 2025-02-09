@@ -1,0 +1,3 @@
+tag is a special text that can point to a differnt text in the file.
+
+tags can be used to move around using CTRL-].

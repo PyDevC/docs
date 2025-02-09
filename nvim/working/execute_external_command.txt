@@ -1,0 +1,2 @@
+To execute the commands like in terminal use :!
+
