@@ -1,0 +1,18 @@
+A window is a viewport onto a buffer.
+one buffer can be viewed on multiple windows or several window viewing differnt
+buffers.
+
+each window has a window ID. ID doesnot change within a session.
+win_getid() and win_id2tabwin() functions can be used to convert between the
+window number and the identifier.
+
+Window number changes whenever the windows are opened or closed. winnr()
+
+If wrap is off then the part that only fits the window is shown.
+All normal ASCII characters are diplayed on screen. <Tab> is replaced by number
+of spaces that it represents. Other non-printing characters are ^char which is
+64 added to 7. 
+ex: ascii 7 is replaced by ^G. ^{71}.
+
+characters 
+

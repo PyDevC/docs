@@ -1,0 +1,13 @@
+A buffer is a file loaded into memory for editing. The original file remains
+unchanged until you write the buffer to the file.
+
+States of buffer:
+active: It is displayed on window and it can read a file from when it was last written.
+hidden: It is not displayed but have same funcitonality as active.
+inactive: It is not displayed and is empty. Options for the buffer are remembered
+          if the file was once loaded. It can contain marks form shada file.
+
+Each buffer has a unique number and the number will not change within a session.
+bufnr() and bufname() functions can be used to convert between a buffer name
+and buffer number.
+

@@ -1,0 +1,13 @@
+To switch from one mode to another use this
+
+*i_esc*
+ FROM mode	TO mode						    ~
+		Normal	Visual	Select	Insert	  Replace   Cmd-line  Ex >
+ Normal			v V ^V	  *4	 *1	   R gR     : / ? !   Q
+ Visual		 *2		  ^G	 c C	    --	      :       --
+ Select		 *5	^O ^G		 *6	    --	      --      --
+ Insert		 <Esc>	  --	  --		  <Insert>    --      --
+ Replace	 <Esc>	  --	  --	<Insert>	      --      --
+ Command-line	 `*3`	  --	  --	 :start	    --		      --
+ Ex		 :vi	  --	  --	 --	    --	      --
+

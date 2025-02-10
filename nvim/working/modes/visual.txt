@@ -4,3 +4,7 @@ this creates a highlighted text with the movements of cursor.
 Usage with command mode.
 when some lines are selected using visual mode and : is typed, then :'<,'> appears
 which then allows us to execute command for just this one selection.
+
+Additional modes:
+virtual replace mode
+insert visual mode

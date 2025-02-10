@@ -1,3 +1,8 @@
 most of the work is done in normal mode
 like moving around text
 applying motions etc.
+
+Additional modes:
+Operator-pending mode
+Replace mode
+Insert Normal mode
