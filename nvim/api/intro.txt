@@ -1,0 +1,21 @@
+API client 
+All external UIs and remote plugins (as opposed to regular Vim plugins) are
+"clients" in general; but we call something an "API client" if its purpose is
+to abstract or wrap the RPC API for the convenience of other applications
+(just like a REST client or SDK such as boto3 for AWS: you can speak AWS REST
+using an HTTP client like curl, but boto3 wraps that in a convenient python
+interface). For example, the Nvim lua-client is an API client:
+    https://github.com/neovim/lua-client
+
+
+Host 
+A plugin "host" is both a client (of the Nvim API) and a server (of an
+external platform, e.g. python). It is a remote plugin that hosts other
+plugins.
+
+
+Remote plugin
+Arbitrary code registered via :UpdateRemotePlugins, that runs in a separate
+process and communicates with Nvim via the api.
+
+

@@ -1,0 +1,18 @@
+A line is part of buffer that has \n character at the end. EOL
+
+A difference is made between four types of lines:
+
+buffer lines: Line in the buffer that is used in read/write to files. They can
+be of thousand characters.
+
+logical lines: Buffer lines with folding applied. Buffer lines in closed fold
+are changed to a single logical line "+-- 99 lines folded". 
+
+window lines: The lines displayed in a window: A range of logical lines with 
+wrapping, line breaks, etc. 
+
+screen lines: The lines of the screen that Nvim uses. Consists of the window
+lines of all windows, with status lines and the command line added. They can
+only be long as the width of the screen allows.
+
+
