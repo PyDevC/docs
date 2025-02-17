@@ -1,0 +1,5 @@
+Diagraphs are used to enter characters that normally cannot be entered by an 
+ordinary keyboard. Mostly printable non-Ascii characters. It can be entered with
+CTRL-V.
+
+:digraphs this will how all the characters.  

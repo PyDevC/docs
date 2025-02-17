@@ -1,0 +1,13 @@
+filter is a program that accepts text at stdin, changes it and stdout.
+
+You can use commands below to send some text through a filter, so that it is 
+replaced by the filter output.
+
+Try:
+use sort or indent function with filter.
+
+!{motion}{filter} Filter {motion} text lines through the external program {filter}.
+
+!!{filter} Filter [count] lines through the external program {filter}.
+
+{visual}!{filter} Filter the highlighted lines through the exteranl program {filter}
