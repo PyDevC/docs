@@ -1,0 +1,98 @@
+fzf [option]
+Most long options have the opposite version with --no- prefix.
+
+usage
+
+-e to get exact match 
+-i to get case insensitive
++i to get case sensitive
+--smart-case for smart case matching
+--scheme=SCHEME Choose scoring scheme tailored for different types of input
+--algo=TYPE choose the version of algorithm to use
+-n Comma-separated list of field index expressions for limiting search scope.
+--with-nth=N[,..]
+              Transform the presentation of each line using field index expressions
+--tail=NUM  Maximum  number of items to keep in memory. 
+--no-sort Don't sort the result
+--diabled To diable search prompt
+--sync Synchronous  search  for multi-staged filtering.  
+--style=PRESET Apply a style preset [default|minimal|full[:BORDER_STYLE]]
+--color=[BASE_SCHEME][,COLOR_NAME[:ANSI_COLOR][:ANSI_ATTRIBUTES]]...
+--height=[~]HEIGHT[%] set height for search window 
+--min-height=HEIGHT set the minimum height for the window 
+--tmux[=[center|top|bottom|left|right][,SIZE[%]][,SIZE[%]][,border-native]]
+--layout=LAYOUT choose layout
+--reverse prompt at top
+--margin=MARGIN Comma-separated expression for margins around the finder.
+--padding=PADDING Comma-separated expression for padding inside the border. 
+--border[=STYLE] set the border
+--border-label
+--border-label-pos
+-m multi select
+--cycle cycle scroll
+--wrap enable wrapline
+--wrap wrap sign-indicator
+--track 
+--res reverse the order of input
+--gap render empty line between inputs
+--scroll-off=LINES same as nvim scroll off
+--no-scroll disable horizontall scroll
+       --pointer=STR
+              Pointer to the current line (default: '▌' or '>' depending on --no-unicode)
+
+       --marker=STR
+              Multi-select marker (default: '┃' or '>' depending on --no-unicode)
+
+       --marker-multi-line=STR
+              Multi-select marker for multi-line entries. 3 elements for top, middle, and bottom.  (default: '╻┃╹' or '.|'' depending on --no-unicode)
+
+       --ellipsis=STR
+              Ellipsis to show when line is truncated (default: '··')
+
+       --tabstop=SPACES
+              Number of spaces for a tab character (default: 8)
+
+--prompt Input prompt 
+--info=STYLE
+--info-command command to generate info 
+--filepath-word
+       --input-border[=STYLE]
+              Draw border around the input section
+
+       --input-label[=LABEL]
+              Label to print on the input border
+
+       --input-label-pos[=N[:top|bottom]]
+              Position of the input label
+
+--preview=COMMAND
+       --header=STR
+-q start with a query in it
+-1 If there is only one match for the initial query (--query) do not open
+-0 If there is only no match for the initial query (--query) do not open
+-f fuzzy version of grep
+--print-query
+--expect=KEY
+--no-clear
+--bind=BINDINGS used for custom keybindings
+--with-shell
+--walker Determines the behavior of the built-in directory walker
+--walker-root=DIR
+
+shell integrations
+--bash
+--zsh
+--fish
+
+
+EXIT STATUS
+       0      Normal exit
+       1      No match
+       2      Error
+       126    Permission denied error from become action
+       127    Invalid shell command for become action
+       130    Interrupted with CTRL-C or ESC
+
+has complex query method
+handles a bunch of events such as start resize result
+

@@ -1,0 +1,49 @@
+you can use it with 'y' 'd' 'v' 'c'
+
+aw  around word
+iw  inside word
+aW  around WORD
+iW  inside WORD
+
+as  around sentence
+is  inside sentence
+
+ap  around para
+ip  inside para
+
+a]  around ]
+a[  around [
+i]  inside ]
+i[  inside [
+
+a)  around )
+a(  around (
+i)  inside )
+i(  inside (
+
+ab  around block
+ib  inside block
+
+a>  around >
+i>  inside >
+a<  around <
+i<  inside <
+
+at  around tag block -- a tag block is just html or xml tags
+it  around tag block
+
+a}  around }
+a{  around {
+aB  around block
+  
+a}  inside }
+a{  inside {
+aB  inside block
+  
+a"  around "
+a'  around '
+a`  around `
+
+a"  inside "
+a'  inside '
+a`  inside `

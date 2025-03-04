@@ -1,0 +1,8 @@
+I use goto (g) to  go anywhere in the file.
+
+g0  to goto first character of the line
+g^  to goto first non-blank character of the line
+g$  to goto last character of the line
+G   to goto last line
+gg  to goto first line
+:N  goto the line number

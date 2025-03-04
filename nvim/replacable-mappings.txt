@@ -1,1 +1,10 @@
 <C-g>  - shows the line you are currently at.
+gm - to goto half a screenwidth to the right.
+gM - to goto half a screenwidth to the right.
+gk  same as k with wrap 
+gj  same as j with wrap
+-   move a line up
++   move a line down
+_ for the first blank-line character
+ge  for going backward to the word
+gE  for going backward to the WORD

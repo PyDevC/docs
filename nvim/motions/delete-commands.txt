@@ -1,0 +1,15 @@
+	"dl"	delete character (alias: "x")
+	"diw"	delete inner word
+	"daw"	delete a word
+	"diW"	delete inner WORD 
+	"daW"	delete a WORD 
+	"dgn"   delete the next search pattern match
+	"dd"	delete one line
+	"dis"	delete inner sentence
+	"das"	delete a sentence
+	"dib"	delete inner '(' ')' block
+	"dab"	delete a '(' ')' block
+	"dip"	delete inner paragraph
+	"dap"	delete a paragraph
+	"diB"	delete inner '{' '}' block
+	"daB"	delete a '{' '}' block

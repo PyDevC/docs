@@ -1,0 +1,4 @@
+find occurenace (f)
+
+f{char} to find the first forward occurence of the character.
+F{char} to find the first backward occurence of the character.

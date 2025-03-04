@@ -1,0 +1,3 @@
+TMUX_TMPDIR allows several tmux server to run independently.
+TMUX_TMPDIR directory should not have any rwx permissions
+
